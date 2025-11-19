@@ -1,0 +1,443 @@
+[
+  {
+    "term": "hero.title",
+    "definition": "Sorry, intuition doesn’t trade here.",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "hero.subtitle",
+    "definition": "Experience the seamless integration of AI in crypto trading, designed to optimize your investment strategies and enhance your trading outcomes.",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "button.getStarted",
+    "definition": "Get Stared",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "button.cta",
+    "definition": "Book a call",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "button.goToDashboard",
+    "definition": "Go to dashboard",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "showcase.aboutUs",
+    "definition": "We've engineered an AI-driven platform that provides round-the-clock vigilance and lightning-fast response.",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "showcase.whatWeDo",
+    "definition": "Let the algorithm do what emotions never could — trade faster, smarter, and without panic.",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "",
+    "definition": "",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "",
+    "definition": "",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "",
+    "definition": "",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "",
+    "definition": "",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "",
+    "definition": "",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "",
+    "definition": "",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "",
+    "definition": "",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "",
+    "definition": "",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "highlights.title",
+    "definition": "The market moves. AI reacts.",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "highlights.profit",
+    "definition": "Profit",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "highlights.traders",
+    "definition": "Traders",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "highlights.partners",
+    "definition": "Partners",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "steps.title",
+    "definition": "Steps",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "steps.subtitle",
+    "definition": "Experience the seamless integration of AI in crypto trading, designed to optimize your investment strategies and enhance your trading outcomes.",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "steps.step1.title",
+    "definition": "AI Automation",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "steps.step1.description",
+    "definition": "Automate tasks and streamline processes with intelligent systems that adapt to your unique operational needs.",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "steps.step2.title",
+    "definition": "AI-Powered Apps",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "steps.step2.description",
+    "definition": "Intuitive app design meets cutting-edge AI for seamless user experiences and personalized interactions.",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "steps.step3.title",
+    "definition": "Algorithmic Trading",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "steps.step3.description",
+    "definition": "Execute trades faster and smarter with AI algorithms that analyze market trends and optimize investment strategies.",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "steps.learnMore",
+    "definition": "Learn More",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "",
+    "definition": "",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "availability.title",
+    "definition": "Available on mobile & desktop",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "availability.subtitle",
+    "definition": "Let the algorithm do what emotions never could — trade faster, smarter, and without panic.",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "button.getItOn",
+    "definition": "Get it on",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "button.downloadOnThe",
+    "definition": "Download on the",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "benefits.title",
+    "definition": "Benefits",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "benefits.subtitle",
+    "definition": "Experience the seamless integration of AI in crypto trading, designed to optimize your investment strategies and enhance your trading outcomes.",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "benefits.benefit1.title",
+    "definition": "Smarter Trading with AI Insights",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "benefits.benefit1.description",
+    "definition": "Our AI platform delivers round-the-clock market analysis, providing you with real-time insights to make informed trading decisions. Stay ahead of the curve with predictive analytics and adaptive strategies.",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "benefits.benefit2.title",
+    "definition": "Automated Precision for Peak Performance",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "benefits.benefit2.description",
+    "definition": "Experience the power of automated trading with our AI-driven system. Execute trades with speed and precision, optimizing your portfolio for maximum returns while minimizing risk.",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "benefits.benefit3.title",
+    "definition": "Data-Driven Strategies for Every Investor",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "benefits.benefit3.description",
+    "definition": "Unlock the potential of data-driven investing with our AI platform. Whether you're a beginner or an expert, our tools provide personalized strategies and insights to help you achieve your financial goals.",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "faqs.title",
+    "definition": "FAQs",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "faqs.subtitle",
+    "definition": "Experience the seamless integration of AI in crypto trading, designed to optimize your investment strategies and enhance your trading outcomes.",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "faq.question1",
+    "definition": "How secure is my data on Sigma Forge?",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "faq.answer1",
+    "definition": "Sigma Forge uses advanced encryption and two-factor authentication to protect your data. We also perform regular security audits.",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "cta.title",
+    "definition": "Add a fresh investment in the realm of digital connectivity",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "cta.subtitle",
+    "definition": "Experience the seamless integration of AI in crypto trading, designed to optimize your investment strategies and enhance your trading outcomes.",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "chooseUs.title",
+    "definition": "The best choose us.",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "",
+    "definition": "",
+    "context": "",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  }
+]

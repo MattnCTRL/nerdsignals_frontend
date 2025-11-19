@@ -1,0 +1,33 @@
+@import 'tailwindcss';
+
+@theme inline {
+  --font-inter: var(--font-inter);
+}
+
+body {
+  @apply font-inter text-white;
+}
+
+section {
+  @apply py-[90px];
+}
+
+.container {
+  @apply mx-auto max-w-[1440px] px-24;
+}
+
+h2 {
+  @apply text-[60px] leading-[72px] font-semibold;
+}
+
+h3 {
+  @apply text-[42px]/[60px] font-semibold;
+}
+
+button {
+  @apply cursor-pointer;
+}
+
+button.contained {
+  @apply rounded-full bg-white px-5 py-2.5 text-sm text-black;
+}
