@@ -1,12 +1,25 @@
 @import 'tailwindcss';
 
 @theme inline {
+  /* Font declaration */
   --font-inter: var(--font-inter);
   --font-instrument-sans: var(--font-instrument-sans);
+
+  /* Breakpoints */
+  --breakpoint-xs: 480px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+}
+
+html {
+  @apply scroll-smooth;
 }
 
 body {
-  @apply font-inter text-white;
+  @apply font-inter bg-[#0D0E16] text-white;
 }
 
 section {
@@ -14,7 +27,7 @@ section {
 }
 
 .container {
-  @apply mx-auto max-w-[1440px] px-24;
+  @apply mx-auto max-w-[1440px] px-2.5 md:px-6 xl:px-12 2xl:px-24;
 }
 
 h2 {

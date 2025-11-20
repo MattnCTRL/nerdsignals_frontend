@@ -9,7 +9,7 @@ const ShowcaseSection: React.FC = () => {
   const { t } = useTranslation()
 
   return (
-    <section id='showcase' className='py-0'>
+    <section id='showcase' className='py-0!'>
       <div className='relative container'>
         <Image src={HoleImage} alt='' className='mx-auto' />
 

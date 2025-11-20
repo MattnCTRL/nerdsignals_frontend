@@ -11,7 +11,7 @@ const HeroSection: React.FC = () => {
   const { t } = useTranslation()
 
   return (
-    <section id='hero' className='relative pt-40 pb-0'>
+    <section id='hero' className='relative pt-40! pb-0!'>
       <div className='absolute top-4 right-4 left-4'>
         <Image src={HeroBackgroundImage} alt='' className='w-full' />
         <Image src={GridImage} alt='' className='absolute top-4 left-4 w-full max-w-[696px]' />
