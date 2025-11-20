@@ -9,11 +9,11 @@ const Header: React.FC = () => {
   const { t } = useTranslation()
 
   return (
-    <header className='fixed top-9 right-0 left-0 z-50'>
-      <div className='container flex h-[38px] items-center justify-between'>
+    <header className='fixed top-[30px] right-0 left-0 z-50 lg:top-9'>
+      <div className='container flex items-center justify-between'>
         <Image src={LogoImage} alt='Nerd Signals Logo' className='h-8 w-fit' />
 
-        <div className='flex items-center gap-7'>
+        <div className='flex items-center gap-2 lg:gap-7'>
           <LanguageSelect />
           <button className='contained uppercase'>{t('button.goToDashboard')}</button>
         </div>

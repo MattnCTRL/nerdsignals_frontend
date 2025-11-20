@@ -31,7 +31,7 @@ const LanguageSelect: React.FC<Props> = ({ className }) => {
       </div>
 
       {isOpen && (
-        <div className='absolute right-0 -bottom-2 max-w-none translate-y-full bg-black/50'>
+        <div className='absolute right-0 -bottom-2 max-w-none translate-y-full bg-black'>
           {Object.keys(languages).map((lng) => (
             <React.Fragment key={lng}>
               {lng === i18n.language ? (

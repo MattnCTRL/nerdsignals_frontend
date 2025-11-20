@@ -39,18 +39,25 @@ const BenefitsSection: React.FC = () => {
 
         <div className='mt-9'>
           {benefits.map((benefit, index) => (
-            <div className='min-h-[300px] border-t border-white/10 py-12' key={`benefit-${index}`}>
-              <div className='flex size-16 items-center justify-center rounded-full border-2 border-[#363E6F] bg-[#1D2137]'>
-                <Icon icon={benefit.icon} className='text-4xl' />
+            <div
+              className='border-t border-white/10 py-4 lg:min-h-[300px] lg:py-12'
+              key={`benefit-${index}`}
+            >
+              <div className='flex size-8 items-center justify-center rounded-full border border-[#363E6F] bg-[#1D2137] lg:size-16 lg:border-2'>
+                <Icon icon={benefit.icon} className='text-base lg:text-4xl' />
               </div>
 
-              <div className='mt-4 flex items-center'>
-                <div className='w-1/2 pr-2'>
-                  <h4 className='max-w-[510px] text-4xl font-medium'>{benefit.title}</h4>
+              <div className='mt-4 flex flex-col gap-4 lg:flex-row lg:items-center lg:gap-0'>
+                <div className='lg:w-1/2 lg:pr-2'>
+                  <h4 className='text-2xl font-medium lg:max-w-[510px] lg:text-4xl'>
+                    {benefit.title}
+                  </h4>
                 </div>
 
-                <div className='w-1/2 pl-2'>
-                  <p className='ml-auto max-w-[510px] text-[#A8AEED]'>{benefit.description}</p>
+                <div className='lg:w-1/2 lg:pl-2'>
+                  <p className='text-sm text-[#A8AEED]/50 lg:ml-auto lg:max-w-[510px] lg:text-base'>
+                    {benefit.description}
+                  </p>
                 </div>
               </div>
             </div>

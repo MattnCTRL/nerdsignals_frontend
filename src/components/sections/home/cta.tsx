@@ -12,11 +12,13 @@ const CTASection: React.FC = () => {
     <section id='cta' className='relative z-10'>
       <div className='container space-y-9'>
         <div className='mx-auto max-w-[790px] space-y-6 text-center'>
-          <h3>{t('cta.title')}</h3>
+          <h4 className='text-[32px]/[38px] font-semibold lg:text-[42px]/[60px]'>
+            {t('cta.title')}
+          </h4>
           <p className='text-base/[25px]'>{t('cta.subtitle')}</p>
         </div>
 
-        <Image src={CtaImage} alt='' className='mx-auto' />
+        <Image src={CtaImage} alt='' className='mx-auto hidden w-full max-w-[900px] lg:block' />
 
         <div className='mx-auto flex w-fit items-center gap-[15px]'>
           <button className='contained text-black'>{t('button.getStarted')}</button>
@@ -25,6 +27,8 @@ const CTASection: React.FC = () => {
             <Icon icon='material-symbols:chevron-right-rounded' className='' />
           </button>
         </div>
+
+        <Image src={CtaImage} alt='' className='mx-auto block w-full max-w-[900px] lg:hidden' />
       </div>
     </section>
   )

@@ -11,10 +11,14 @@ const HeroSection: React.FC = () => {
   const { t } = useTranslation()
 
   return (
-    <section id='hero' className='relative pt-40! pb-0!'>
-      <div className='absolute top-4 right-4 left-4'>
+    <section id='hero' className='relative pt-40! pb-16! lg:pb-0!'>
+      <div className='absolute top-[5px] right-[5px] left-[5px] lg:top-4 lg:right-4 lg:left-4'>
         <Image src={HeroBackgroundImage} alt='' className='w-full' />
-        <Image src={GridImage} alt='' className='absolute top-4 left-4 w-full max-w-[696px]' />
+        <Image
+          src={GridImage}
+          alt=''
+          className='absolute top-[5px] left-[5px] w-full max-w-[696px] lg:top-4 lg:left-4'
+        />
       </div>
 
       <div className='relative z-10 container'>
@@ -31,7 +35,7 @@ const HeroSection: React.FC = () => {
           </button>
         </div>
 
-        <Image src={HeroImage} alt='' className='mx-auto mt-[100px]' />
+        <Image src={HeroImage} alt='' className='mx-auto mt-16 lg:mt-[100px]' />
       </div>
     </section>
   )

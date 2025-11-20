@@ -23,7 +23,7 @@ body {
 }
 
 section {
-  @apply py-[90px];
+  @apply py-16 lg:py-[90px];
 }
 
 .container {
@@ -31,11 +31,11 @@ section {
 }
 
 h2 {
-  @apply text-[60px] leading-[72px] font-semibold;
+  @apply text-[40px]/[48px] font-semibold lg:text-[60px]/[72px];
 }
 
 h3 {
-  @apply text-[42px]/[60px] font-semibold;
+  @apply text-[36px]/[50px] font-semibold lg:text-[42px]/[60px];
 }
 
 button {
@@ -43,5 +43,5 @@ button {
 }
 
 button.contained {
-  @apply rounded-full bg-white px-5 py-2.5 text-sm text-black;
+  @apply rounded-full bg-white px-4 py-2.5 text-sm text-black lg:px-5;
 }

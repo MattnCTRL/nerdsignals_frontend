@@ -16,28 +16,33 @@ import StepsSection from '@/components/sections/home/steps'
 export default function Home() {
   return (
     <>
-      {/* <Header />
+      <Header />
 
       <main>
         <HeroSection />
         <ShowcaseSection />
-        <HighlightsSection />
+        <HighlightsSection className='hidden lg:block' />
 
-        <div className='mt-[120px] -mb-8 rounded-t-4xl bg-[#101220] pt-16'>
+        <div className='-mb-8 rounded-t-4xl bg-[#101220] lg:mt-[120px] lg:pt-16'>
+          <HighlightsSection className='block py-8! lg:hidden' />
           <StepsSection />
           <AvailabilitySection />
           <BenefitsSection />
           <FaqsSection />
 
-          <div className='relative overflow-hidden rounded-4xl bg-[#030372] pb-[50px]'>
+          <div className='relative mt-[50px] overflow-hidden rounded-t-4xl bg-[#030372] pb-[50px]'>
             <Image src={GradientImage1} alt='' className='absolute top-0 left-0 w-full' />
-            <Image src={EffectImage1} alt='' className='absolute bottom-0 left-0 w-full' />
+            <Image
+              src={EffectImage1}
+              alt=''
+              className='absolute bottom-0 left-1/2 w-[1800px] max-w-none -translate-x-1/2'
+            />
 
             <ChooseUsSection />
             <CTASection />
           </div>
         </div>
-      </main> */}
+      </main>
 
       <Footer />
     </>

@@ -35,7 +35,7 @@ const FaqsSection: React.FC = () => {
           {t('faqs.subtitle')}
         </p>
 
-        <div className='mt-16 space-y-2'>
+        <div className='mt-12 space-y-2 lg:mt-16'>
           {faqs.map((faq, index) => (
             <Faq key={`faq-${index}`} question={faq.question} answer={faq.answer} />
           ))}
@@ -56,14 +56,14 @@ const Faq: React.FC<FaqProps> = ({ question, answer }) => {
   return (
     <div
       className={cn(
-        'rounded-lg border-[#1D2137] px-[50px] py-8',
+        'rounded-lg border-[#1D2137] px-4 py-8 lg:px-[50px]',
         isOpen ? 'border-2 bg-[#1D2137]' : 'border bg-[#161A2E]',
       )}
     >
       <div className='flex items-center'>
         <p
           className={cn(
-            'grow text-[21px] font-medium',
+            'grow text-lg font-medium lg:text-[21px]',
             isOpen ? 'drop-shadow-[5px_5px_25px_#C6C6C640]' : '',
           )}
         >
@@ -71,18 +71,18 @@ const Faq: React.FC<FaqProps> = ({ question, answer }) => {
         </p>
         <button
           className={cn(
-            'flex size-10 shrink-0 items-center justify-center rounded border border-[#363E6F] bg-[#1D2137]',
+            'flex size-7 shrink-0 items-center justify-center rounded border border-[#363E6F] bg-[#1D2137] lg:size-10',
             isOpen ? 'shadow-[5px_5px_25px_#C6C6C640]' : '',
           )}
           onClick={() => setIsOpen((prev) => !prev)}
         >
           <Icon
             icon={isOpen ? 'material-symbols:remove' : 'material-symbols:add'}
-            className='text-2xl'
+            className='text-base lg:text-2xl'
           />
         </button>
       </div>
-      {isOpen && <p className='mt-5 text-lg text-[#A6AAD3]'>{answer}</p>}
+      {isOpen && <p className='mt-5 text-sm text-[#A6AAD3] lg:text-lg'>{answer}</p>}
     </div>
   )
 }
