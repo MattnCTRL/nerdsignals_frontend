@@ -20,9 +20,15 @@ export const metadata: Metadata = {
     'Experience the seamless integration of AI in crypto trading, designed to optimize your investment strategies and enhance your trading outcomes.',
 }
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+export default function RootLayout({
+  children,
+  params,
+}: Readonly<{ children: React.ReactNode; params?: { lng?: string } }>) {
+  // Keep the document language aligned with the active i18n route (/[lng]).
+  const lang = params?.lng ?? 'en'
+
   return (
-    <html lang='en'>
+    <html lang={lang}>
       <body className={`${inter.variable} ${instrumentSans.variable} antialiased`}>{children}</body>
     </html>
   )
