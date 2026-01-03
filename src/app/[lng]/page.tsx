@@ -19,16 +19,32 @@ export default function Home() {
       <Header />
 
       <main>
-        <HeroSection />
-        <ShowcaseSection />
-        <HighlightsSection className='hidden lg:block' />
+        <div className="reveal-on-scroll">
+          <HeroSection />
+        </div>
+        <div className="reveal-on-scroll">
+          <ShowcaseSection />
+        </div>
+        <div className="reveal-on-scroll">
+          <HighlightsSection className='hidden lg:block' />
+        </div>
 
         <div className='-mb-8 rounded-t-4xl bg-[#101220] lg:mt-[120px] lg:pt-16'>
-          <HighlightsSection className='block py-8! lg:hidden' />
-          <StepsSection />
-          <AvailabilitySection />
-          <BenefitsSection />
-          <FaqsSection />
+          <div className="reveal-on-scroll">
+            <HighlightsSection className='block py-8! lg:hidden' />
+          </div>
+          <div className="reveal-on-scroll">
+            <StepsSection />
+          </div>
+          <div className="reveal-on-scroll">
+            <AvailabilitySection />
+          </div>
+          <div className="reveal-on-scroll">
+            <BenefitsSection />
+          </div>
+          <div className="reveal-on-scroll">
+            <FaqsSection />
+          </div>
 
           <div className='relative mt-[50px] overflow-hidden rounded-t-4xl bg-[#030372] pb-[50px]'>
             <Image src={GradientImage1} alt='' className='absolute top-0 left-0 w-full' />
@@ -38,8 +54,12 @@ export default function Home() {
               className='absolute bottom-0 left-1/2 w-[1800px] max-w-none -translate-x-1/2'
             />
 
-            <ChooseUsSection />
-            <CTASection />
+            <div className="reveal-on-scroll">
+              <ChooseUsSection />
+            </div>
+            <div className="reveal-on-scroll">
+              <CTASection />
+            </div>
           </div>
         </div>
       </main>

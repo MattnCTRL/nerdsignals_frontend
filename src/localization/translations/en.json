@@ -529,5 +529,23 @@
     "reference": "",
     "comment": "",
     "fuzzy": 0
-  }
+  },
+  {
+  "term": "button.login",
+  "definition": "Login",
+  "context": "header",
+  "term_plural": "",
+  "reference": "",
+  "comment": "",
+  "fuzzy": 0
+},
+{
+  "term": "button.createAccount",
+  "definition": "Create Account",
+  "context": "header",
+  "term_plural": "",
+  "reference": "",
+  "comment": "",
+  "fuzzy": 0
+}
 ]

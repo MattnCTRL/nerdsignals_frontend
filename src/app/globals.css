@@ -45,3 +45,38 @@ button {
 button.contained {
   @apply rounded-full bg-white px-4 py-2.5 text-sm text-black lg:px-5;
 }
+
+/* NerdSignals: scroll reveal (no JS) */
+.reveal-on-scroll {
+  opacity: 1;
+  transform: none;
+}
+
+/* Progressive enhancement: scroll-driven reveal where supported */
+@supports (animation-timeline: view()) {
+  .reveal-on-scroll {
+    opacity: 0;
+    transform: translate3d(0, 14px, 0);
+    will-change: opacity, transform;
+    animation-name: ns-reveal;
+    animation-duration: 1ms; /* timeline-driven */
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    animation-timeline: view();
+    animation-range: entry 10% cover 25%;
+  }
+  @keyframes ns-reveal {
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-on-scroll {
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
+  }
+}
