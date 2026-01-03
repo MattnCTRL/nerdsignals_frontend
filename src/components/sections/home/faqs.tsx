@@ -15,12 +15,12 @@ const FaqsSection: React.FC = () => {
         answer: t('faq.answer1'),
       },
       {
-        question: t('faq.question1'),
-        answer: t('faq.answer1'),
+        question: t('faq.question2'),
+        answer: t('faq.answer2'),
       },
       {
-        question: t('faq.question1'),
-        answer: t('faq.answer1'),
+        question: t('faq.question3'),
+        answer: t('faq.answer3'),
       },
     ],
     [t],

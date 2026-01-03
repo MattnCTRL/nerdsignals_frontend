@@ -1,7 +1,7 @@
 [
   {
     "term": "hero.title",
-    "definition": "Sorry, intuition doesn’t trade here.",
+    "definition": "Trade signals, not feelings.",
     "context": "",
     "term_plural": "",
     "reference": "",
@@ -10,7 +10,7 @@
   },
   {
     "term": "hero.subtitle",
-    "definition": "Experience the seamless integration of AI in crypto trading, designed to optimize your investment strategies and enhance your trading outcomes.",
+    "definition": "Systematic crypto trading built on market structure, risk controls, and execution discipline.",
     "context": "",
     "term_plural": "",
     "reference": "",
@@ -19,7 +19,7 @@
   },
   {
     "term": "button.getStarted",
-    "definition": "Get Stared",
+    "definition": "Get Started",
     "context": "",
     "term_plural": "",
     "reference": "",
@@ -46,7 +46,7 @@
   },
   {
     "term": "showcase.aboutUs",
-    "definition": "We've engineered an AI-driven platform that provides round-the-clock vigilance and lightning-fast response.",
+    "definition": "We built a trading platform designed to operate calmly, consistently, and without emotional interference.",
     "context": "",
     "term_plural": "",
     "reference": "",
@@ -55,7 +55,7 @@
   },
   {
     "term": "showcase.whatWeDo",
-    "definition": "Let the algorithm do what emotions never could — trade faster, smarter, and without panic.",
+    "definition": "Markets move fast. Our system responds with structure, rules, and discipline.",
     "context": "",
     "term_plural": "",
     "reference": "",
@@ -64,7 +64,7 @@
   },
   {
     "term": "highlights.title",
-    "definition": "The market moves. AI reacts.",
+    "definition": "The market moves. The system responds.",
     "context": "",
     "term_plural": "",
     "reference": "",
@@ -109,7 +109,7 @@
   },
   {
     "term": "steps.subtitle",
-    "definition": "Experience the seamless integration of AI in crypto trading, designed to optimize your investment strategies and enhance your trading outcomes.",
+    "definition": "A structured trading workflow focused on consistency, control, and repeatable execution.",
     "context": "",
     "term_plural": "",
     "reference": "",
@@ -118,7 +118,7 @@
   },
   {
     "term": "steps.step1.title",
-    "definition": "AI Automation",
+    "definition": "Signal-Based Trading",
     "context": "",
     "term_plural": "",
     "reference": "",
@@ -127,7 +127,7 @@
   },
   {
     "term": "steps.step1.description",
-    "definition": "Automate tasks and streamline processes with intelligent systems that adapt to your unique operational needs.",
+    "definition": "Trade decisions are driven by predefined signals and market conditions — not guesswork.",
     "context": "",
     "term_plural": "",
     "reference": "",
@@ -136,7 +136,7 @@
   },
   {
     "term": "steps.step2.title",
-    "definition": "AI-Powered Apps",
+    "definition": "Controlled Automation",
     "context": "",
     "term_plural": "",
     "reference": "",
@@ -145,7 +145,7 @@
   },
   {
     "term": "steps.step2.description",
-    "definition": "Intuitive app design meets cutting-edge AI for seamless user experiences and personalized interactions.",
+    "definition": "Once configured, the system executes within strict rules designed to limit emotional mistakes.",
     "context": "",
     "term_plural": "",
     "reference": "",
@@ -154,7 +154,7 @@
   },
   {
     "term": "steps.step3.title",
-    "definition": "Algorithmic Trading",
+    "definition": "Execution Discipline",
     "context": "",
     "term_plural": "",
     "reference": "",
@@ -163,7 +163,7 @@
   },
   {
     "term": "steps.step3.description",
-    "definition": "Execute trades faster and smarter with AI algorithms that analyze market trends and optimize investment strategies.",
+    "definition": "Orders are placed, managed, and exited according to risk-aware execution logic.",
     "context": "",
     "term_plural": "",
     "reference": "",
@@ -226,7 +226,7 @@
   },
   {
     "term": "benefits.subtitle",
-    "definition": "Experience the seamless integration of AI in crypto trading, designed to optimize your investment strategies and enhance your trading outcomes.",
+    "definition": "Built for traders who value structure, transparency, and consistency over hype.",
     "context": "",
     "term_plural": "",
     "reference": "",
@@ -235,7 +235,7 @@
   },
   {
     "term": "benefits.benefit1.title",
-    "definition": "Smarter Trading with AI Insights",
+    "definition": "Emotionless Decisions",
     "context": "",
     "term_plural": "",
     "reference": "",
@@ -244,7 +244,7 @@
   },
   {
     "term": "benefits.benefit1.description",
-    "definition": "Our AI platform delivers round-the-clock market analysis, providing you with real-time insights to make informed trading decisions. Stay ahead of the curve with predictive analytics and adaptive strategies.",
+    "definition": "Remove impulse and second-guessing by trading from predefined signals and rules.",
     "context": "",
     "term_plural": "",
     "reference": "",
@@ -253,7 +253,7 @@
   },
   {
     "term": "benefits.benefit2.title",
-    "definition": "Automated Precision for Peak Performance",
+    "definition": "Risk-First Design",
     "context": "",
     "term_plural": "",
     "reference": "",
@@ -262,7 +262,7 @@
   },
   {
     "term": "benefits.benefit2.description",
-    "definition": "Experience the power of automated trading with our AI-driven system. Execute trades with speed and precision, optimizing your portfolio for maximum returns while minimizing risk.",
+    "definition": "Every trade is bounded by position sizing, thresholds, and execution constraints.",
     "context": "",
     "term_plural": "",
     "reference": "",
@@ -271,7 +271,7 @@
   },
   {
     "term": "benefits.benefit3.title",
-    "definition": "Data-Driven Strategies for Every Investor",
+    "definition": "Built for Real Markets",
     "context": "",
     "term_plural": "",
     "reference": "",
@@ -280,7 +280,7 @@
   },
   {
     "term": "benefits.benefit3.description",
-    "definition": "Unlock the potential of data-driven investing with our AI platform. Whether you're a beginner or an expert, our tools provide personalized strategies and insights to help you achieve your financial goals.",
+    "definition": "Designed around live market conditions, not theoretical backtests or marketing claims.",
     "context": "",
     "term_plural": "",
     "reference": "",
@@ -298,7 +298,7 @@
   },
   {
     "term": "faqs.subtitle",
-    "definition": "Experience the seamless integration of AI in crypto trading, designed to optimize your investment strategies and enhance your trading outcomes.",
+    "definition": "Clear answers about how the system works, what it does, and what it does not promise.",
     "context": "",
     "term_plural": "",
     "reference": "",
@@ -307,7 +307,7 @@
   },
   {
     "term": "faq.question1",
-    "definition": "How secure is my data on Sigma Forge?",
+    "definition": "How does NerdSignals approach risk?",
     "context": "",
     "term_plural": "",
     "reference": "",
@@ -316,7 +316,7 @@
   },
   {
     "term": "faq.answer1",
-    "definition": "Sigma Forge uses advanced encryption and two-factor authentication to protect your data. We also perform regular security audits.",
+    "definition": "Risk controls, sizing rules, and execution limits are built into every part of the system.",
     "context": "",
     "term_plural": "",
     "reference": "",
@@ -324,8 +324,44 @@
     "fuzzy": 0
   },
   {
+    "term": "faq.question2",
+    "definition": "Is NerdSignals free to use?",
+    "context": "pricing",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "faq.answer2",
+    "definition": "Yes. NerdSignals is free to use. Fees are only applied when a trade closes profitably — no subscriptions, no charges for inactivity, and no fees on losing trades.",
+    "context": "pricing",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "faq.question3",
+    "definition": "Does NerdSignals guarantee profits?",
+    "context": "expectations",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
+    "term": "faq.answer3",
+    "definition": "No. NerdSignals does not guarantee profits. Trading always involves risk, and losses are possible. The platform focuses on structured execution and risk control — not predictions or promises.",
+    "context": "expectations",
+    "term_plural": "",
+    "reference": "",
+    "comment": "",
+    "fuzzy": 0
+  },
+  {
     "term": "cta.title",
-    "definition": "Add a fresh investment in the realm of digital connectivity",
+    "definition": "Trade with structure.",
     "context": "",
     "term_plural": "",
     "reference": "",
@@ -334,7 +370,7 @@
   },
   {
     "term": "cta.subtitle",
-    "definition": "Experience the seamless integration of AI in crypto trading, designed to optimize your investment strategies and enhance your trading outcomes.",
+    "definition": "A disciplined approach to crypto trading, without hype or emotional shortcuts.",
     "context": "",
     "term_plural": "",
     "reference": "",
@@ -343,7 +379,7 @@
   },
   {
     "term": "chooseUs.title",
-    "definition": "The best choose us.",
+    "definition": "Why NerdSignals",
     "context": "",
     "term_plural": "",
     "reference": "",
@@ -352,7 +388,7 @@
   },
   {
     "term": "chooseUs.subtitle",
-    "definition": "Be one of them.",
+    "definition": "Because discipline beats intuition.",
     "context": "",
     "term_plural": "",
     "reference": "",

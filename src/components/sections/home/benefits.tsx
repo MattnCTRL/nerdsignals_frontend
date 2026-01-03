@@ -43,22 +43,17 @@ const BenefitsSection: React.FC = () => {
               className='border-t border-white/10 py-4 lg:min-h-[300px] lg:py-12'
               key={`benefit-${index}`}
             >
-              <div className='flex size-8 items-center justify-center rounded-full border border-[#363E6F] bg-[#1D2137] lg:size-16 lg:border-2'>
+              <div className='mx-auto flex size-8 items-center justify-center rounded-full border border-[#363E6F] bg-[#1D2137] lg:size-16 lg:border-2'>
                 <Icon icon={benefit.icon} className='text-base lg:text-4xl' />
               </div>
 
-              <div className='mt-4 flex flex-col gap-4 lg:flex-row lg:items-center lg:gap-0'>
-                <div className='lg:w-1/2 lg:pr-2'>
-                  <h4 className='text-2xl font-medium lg:max-w-[510px] lg:text-4xl'>
-                    {benefit.title}
-                  </h4>
-                </div>
-
-                <div className='lg:w-1/2 lg:pl-2'>
-                  <p className='text-sm text-[#A8AEED]/50 lg:ml-auto lg:max-w-[510px] lg:text-base'>
-                    {benefit.description}
-                  </p>
-                </div>
+              <div className='mt-6 flex flex-col items-center text-center gap-4'>
+                <h4 className='text-2xl font-medium break-normal hyphens-none max-w-[560px] lg:text-4xl'>
+                  {benefit.title}
+                </h4>
+                <p className='text-sm text-[#A8AEED]/50 max-w-[510px] lg:text-base'>
+                  {benefit.description}
+                </p>
               </div>
             </div>
           ))}
